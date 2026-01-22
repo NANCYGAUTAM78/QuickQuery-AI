@@ -4,7 +4,12 @@ from openai import OpenAI
 app = Flask(__name__)
 
 # 🔴 TEMPORARY (for testing): paste your REAL API key
-client = OpenAI(api_key="OPENAI_API_KEY")
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def get_completion(prompt):
     try:
