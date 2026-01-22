@@ -1,71 +1,57 @@
-🤖 QuickQuery-AI
+<div align="center">
 
-QuickQuery-AI is a Flask-based AI chatbot web application that allows users to ask questions and receive intelligent, real-time responses using the OpenAI API.
-It features a simple and clean user interface for seamless interaction.
+# 🤖 **QuickQuery-AI**
 
-🚀 Features
+### 🚀 *Ask smart questions. Get instant AI-powered answers.*
 
-💬 AI-powered chatbot for instant responses
+A modern **Flask-based AI chatbot** that delivers real-time responses using the **OpenAI API**, built with clean backend logic and a simple web interface.
 
-🌐 Web-based interface using Flask
+---
 
-🔐 Secure API key management using environment variables
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black)
+![OpenAI](https://img.shields.io/badge/OpenAI-API-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-⚡ Fast and lightweight backend
+</div>
 
-🎨 Simple HTML-based UI
+---
 
-🛠️ Tech Stack
+## ✨ **Features**
 
-Backend: Python, Flask
+- 💬 **AI-powered conversational chatbot**
+- ⚡ **Real-time responses**
+- 🔐 **Secure API key handling using `.env`**
+- 🌐 **Flask-based web application**
+- 🎨 **Simple & clean UI**
+- 🧑‍💻 **Beginner-friendly project structure**
 
-AI Model: OpenAI API
+---
 
-Frontend: HTML, CSS
+## 🛠️ **Tech Stack**
 
-Environment Management: python-dotenv
+| Category | Technologies |
+|--------|-------------|
+| **Backend** | Python, Flask |
+| **AI** | OpenAI API |
+| **Frontend** | HTML, CSS |
+| **Tools** | Git, GitHub, dotenv |
 
-Version Control: Git & GitHub
+---
 
-📂 Project Structure
+## 📂 **Project Structure**
+
+```text
 QuickQuery-AI/
-│
 ├── app.py
 ├── templates/
 │   └── index.html
+├── static/
+│   └── style.css
+├── screenshots/
+│   ├── home.png
+│   └── chat.png
 ├── .gitignore
 ├── README.md
-└── .env   (not pushed to GitHub)
-
-⚙️ Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/NANCYGAUTAM78/QuickQuery-AI.git
-cd QuickQuery-AI
-
-2️⃣ Create and activate virtual environment
-python -m venv venv
-venv\Scripts\activate
-
-3️⃣ Install dependencies
-pip install flask openai python-dotenv
-
-4️⃣ Configure OpenAI API Key
-
-Create a .env file in the project root and add:
-
-OPENAI_API_KEY=your_openai_api_key_here
-
-
-⚠️ Never share or push this file to GitHub.
-
-5️⃣ Run the application
-python app.py
-
-
-Open browser:
-
-http://127.0.0.1:5000/
-
-
-
+└── .env   (ignored)
 
